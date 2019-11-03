@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+@media only screen and (max-width: 700px) {
+    
+    .wrapperheaderpodcast {
+        height: 100px;
+    }
+    
+    .wrapperheaderlogo {
+        height: 45%;
+    }
+    
+    .wrapperheader {
+        height: 150px; 
+    }
+    
+    .wrapperheaderlogo a {
+        width: 23%;
+        top: 15px;
+    }
+    
+    .seta img {
+        width: 10%;
+    }
+
+    .site-header {
+        min-height: 180px;
+    }
+    
+    .site-header-podcast {
+        min-height: 100px;
+        padding: 10px;
+    }
+
+}
+
+// Header podcast
+
+.header-podcast-title h1, .header-podcast-title h5, .header-podcast-title h6 {
+    color: rgb(143, 139, 139);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-podcast-title h1 {
+    font-size: 250%;
+    font-weight: bold;
+}
+
+.arrow-back {
+    background-color: rgba(197, 200, 207, 0.2);
+    border-radius: 5px;
+    left: 0px;
+    width: 200px;
+    height: 8%;
+}
+
+.arrow-back a {
+    font-size: 18px;
+    color: inherit;
+    text-decoration:none;
+}
+
+/* mouse over */
+.arrow-back a:hover {
+    color: rgb(167, 157, 157);
+}
+
+
+// Relacionado aos links para acesso a outras plataformas do header
+
+.linksAccess {
+    margin: 10px;
+    float: left;
+    width: 130px;
+    height: 60px;
+    background-color: rgba(197, 200, 207, 0.2);
+    top: -50%;
+}
+
+.linksAccess .img {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin: 3%;
+}
+
+.linksAccess .rss {
+    float: left;
+    width: 47%;
+    height: auto;
+}
+
+.linksAccess a {
+    font-size: 100%;
+    float: left;
+    line-height: 350%;
+}
+
+.linksAccess a, .authorAccess a { // Para Autores e Links
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linksAccess, .authorAccess img { // Para Autores e Links
+    border-radius: 6%;
+}
+
+.linksAccess a {
+    font-size: 100%;
+}
+
+// Relacionado aos autores no header
+.authorAccess {
+    margin: 30px;
+    float: left;
+    width: 80px;
+}
+  
+.authorAccess img {
+    width: 100%;
+    // height: auto;
+    
+}
+
+.authorAccess a {
+    font-size: 80%;
+}
+
+.pod {
+    width: 50%;
+    padding: 10px;
+    border-radius: 10px;;  
+    background-color: rgba(197, 200, 207, 0.2);
+}
+
+
+//Outros 
+
+.wrapperheader, .wrapperheaderlogo, .wrapperheaderpodcast {
+    position: relative;
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+
+.wrapperheaderpodcast {
+    height: 150px;
+}
+
+.wrapperheaderlogo {
+    height: 45%;
+}
+
+.wrapperheader {
+    top: 50px;
+    height: 150px; 
+}
+
+.wrapperheaderlogo a {
+    position: relative;
+    width: 23%;
+    top: 45px;
+}
+
+.seta img {
+    width: 10%;
+}
+
+.fontep a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+}

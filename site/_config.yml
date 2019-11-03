@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+
+title: Fronteira Cast
+email: poduffs@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  O FronteiraCast é um novo projeto de cultura que está sendo realizado
+  por estudantes de Ciência da Computação da UFFS Campus Chapecó em
+  conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
+
+baseurl: "/fronteiracast" # the subpath of your site, e.g. /blog
+url: "http://127.0.0.1:4000" # the base hostname & protocol for your site, e.g. http://example.com
+homeurl: "http://127.0.0.1:4000/fronteiracast/"
+
+instagram_username: fronteira.cast
+github_username:  FronteiraCast
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
+permalink: /:year/:title
+
+# Settings for itunes rss
+podcast_url: http://www.sitehere
+podcast_album_art: /image.png
+podcast_title: FronteiraCast
+podcast_owner: UFFS
+podcast_email: poduffs@gmail.com
+podcast_category: Technology
+podcast_subcategory_one: One
+podcast_subcategory_two: Two
+podcast_explicit: "no"
+podcast_author: Uffs
+podcast_description: description
+podcast_summary: sumary
+podcast_subtitle: subtitle
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
