@@ -15,11 +15,12 @@ podcast_file_size: 108.4 MB
 podcast_duration: "46:15"
 podcast_length: 2775
 author: Cleisson Vieira Raimundi, Matheus Dias Negrao, Mauricio Bozatski e Vinicius dos Reis
+description: Neste episódio recebemos o professor Mauricio Bozatski do curso de Filosofia para falar sobre a evolução do trabalho durante as revoluções industriais e como será o futuro.
 ---
 
 
 <br>
-Neste episódio recebemos o professor Mauricio Bozatski do curso de Filosofia para falar sobre a evolução do trabalho durante as revoluções industriais e como será o futuro.   
+{{ page.description }}
 
 **Livro Tecnologia e o Mundo da Vida: do Jardim à Terra:** https://bit.ly/2CgwAHj   
 
