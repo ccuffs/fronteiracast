@@ -1,14 +1,18 @@
 <p align="center">
-    <img width="400" height="200" src=".github/logo.png" title="Logo do projeto"><br />
+    <img width="400" height="200" src="http://uffs.cc/fronteiracast/img/fronteira-cast-logo-redondo.png" title="Logo do projeto"><br />
     <img src="https://img.shields.io/maintenance/yes/2019?style=for-the-badge" title="Status do projeto">
     <img src="https://img.shields.io/travis/ccuffs/template?style=for-the-badge" title="Status do build">
 </p>
 
-# Título
+# Podcast Fronteira Cast
 
-Coloque uma descrição do projeto aqui. Geralmente essa descrição tem de duas a três linhas de tamanho. Ela deve dar uma visão geral sobre o que é o projeto, ex.: tecnologia usada, filosofia de existência, qual problema tenta-se resolver, etc. Se você precisa escrever mais que 3 linhas de descrição, crie subseções.
+O FronteiraCast é um novo projeto de cultura que está sendo realizado por estudantes de Ciência da Computação da UFFS Campus Chapecó em conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
 
-> **IMPORTANTE:** coloque aqui alguma mensagem que é muito relevante aos usuários do projeto, se for o caso.
+> **IMPORTANTE:** O projeto foi criado pelo curso de Ciência da Computação mas é destinado não só a toda comunidade acadêmica da Universidade Federal da Fronteira Sul como público em geral.
+
+**Acadêmicos responsáveis pelo projeto:** Cleisson Vieira Raimundi, Isabeli Rosana Reik, Matheus Dias Negrao e Vinicius dos Reis.
+
+**Acadêmicos contribuintes:** Nicolas kolling Ribas e Estela Vilas Boas.
 
 ## Features
 
@@ -19,31 +23,50 @@ Aqui você pode colocar uma screenshot do produto resultante desse projeto. Desc
 * Utiliza um template lindo para organizar o `README`;
 * Possui ótima documentação e testes.
 
-## Começando
+## Começando, preparando o ambiente
 
-### 1. Primeiro passo para começar
-
-Geralmente o primeiro passo para começar é instalar dependências para rodar o projeto. Rode:
+### 1. Git: vamos precisar colocar o site no GitHub para servi-lo:
 
 ```
-apt get install dependencia
+sudo apt install git
 ```
 
-Recomenda-se que cada comando seja colocado em uma linha diferente:
+### 2 - Ruby-full: uma versão antiga mais estável do Ruby. Como Jekyll foi feita nessa lingaguem precisamos dela instalada no seu computador:
 
 ```
-apt get install outra-coisa
+sudo apt install ruby-full
 ```
 
-Dessa forma os usuários podem copiar e colar sem ler as documentação (que é o que geralmente acontece).
-
-### 2. Outro(s) passo(s)
-
-Geralmente os próximos passos ensinam como instalar e configurar o projeto para uso/desenvolvimento. Rode:
+### 3 - Rubygems: Assim como o pip para Python e o npm para o mundo Node, existe o gem para ruby. Ele é um gerenciador de pacotes e ele que precisaremos para instalar jekyll e os demais pacotes para o Fresh:
 
 ```
-git clone https://github.com/ccuffs/template template
+sudo apt install rubygems
 ```
+
+### 4 - bundler: No melhor esquema Inception o bundler é um pacote que controla outros pacotes, ele controla versões dos pacotes e suas dependências nos projetos:
+
+```
+gem install jekyll bundler
+```
+
+## Baixando o tema
+
+Pode ser feito de duas maneiras, ou pode realizar um Fork a partir do link: ** https://github.com/ccuffs/poduffs **
+
+```
+git clone https://github.com/ccuffs/poduffs
+```
+
+## Rodando o Projeto
+
+Depois de clonar o repositório em sua máquina, acesse a pasta via terminal e rode os seguintes comandos: 
+
+```
+cd repositório
+bundle install
+bundle exec jekyll serve
+```
+
 
 ## Contribua
 
