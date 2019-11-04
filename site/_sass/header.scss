@@ -1,41 +1,8 @@
 @charset "UTF-8";
 
-@media only screen and (max-width: 700px) {
-    
-    .wrapperheaderpodcast {
-        height: 100px;
-    }
-    
-    .wrapperheaderlogo {
-        height: 45%;
-    }
-    
-    .wrapperheader {
-        height: 150px; 
-    }
-    
-    .wrapperheaderlogo a {
-        width: 23%;
-        top: 15px;
-    }
-    
-    .seta img {
-        width: 10%;
-    }
 
-    .site-header {
-        min-height: 180px;
-    }
-    
-    .site-header-podcast {
-        min-height: 100px;
-        padding: 10px;
-    }
-
-}
 
 // Header podcast
-
 .header-podcast-title h1, .header-podcast-title h5, .header-podcast-title h6 {
     color: rgb(143, 139, 139);
     font-family: Arial, Helvetica, sans-serif;
@@ -44,17 +11,22 @@
 .header-podcast-title h1 {
     font-size: 250%;
     font-weight: bold;
+    padding-top: 80px;
 }
 
 .arrow-back {
     background-color: rgba(197, 200, 207, 0.2);
     border-radius: 5px;
-    left: 0px;
+    position: relative;
+    // left: 0px;
+    top: 320px;
     width: 200px;
-    height: 8%;
+    height: 50px;
 }
 
 .arrow-back a {
+    position: relative;
+    top: -370px;
     font-size: 18px;
     color: inherit;
     text-decoration:none;
@@ -128,15 +100,14 @@
     font-size: 80%;
 }
 
+//Outros 
+
 .pod {
     width: 50%;
-    padding: 10px;
-    border-radius: 10px;;  
+    padding: 5px;
+    border-radius: 20px;;  
     background-color: rgba(197, 200, 207, 0.2);
 }
-
-
-//Outros 
 
 .wrapperheader, .wrapperheaderlogo, .wrapperheaderpodcast {
     position: relative;
@@ -149,7 +120,7 @@
 }
 
 .wrapperheaderpodcast {
-    height: 150px;
+    height: 190px;
 }
 
 .wrapperheaderlogo {
@@ -176,4 +147,103 @@
     color: inherit;
     text-decoration: none;
     font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+    .authorAccess {
+        margin: 5px;
+        width: 75px;
+    }
+      
+    .authorAccess img {
+        width: 80%;
+        // height: auto;
+        
+    }
+    
+    .authorAccess a {
+        font-size: 80%;
+    }
+
+    .linksAccess{
+        position: relative;
+        margin: 5px;
+        width: 130px;
+        height: 70px;
+        top: -25%;
+    }
+
+    .linksAccess .img {
+        width: 40px;
+        margin-left: 24%;
+    }
+    
+    .linksAccess .rss {
+        width: 55%;
+        margin-left: 21%;
+    }
+
+    .linksAccess a {
+        font-size: 100%;
+        line-height: 180%;
+    }
+
+
+    .header-podcast-title h1 {
+        padding-top: 80px;
+        font-size: 20px;
+    }
+
+    .top {
+        top: 42px;
+    }
+
+    .pod {
+        width: 60%;
+        height: 30px;
+    }
+
+    .arrow-back {
+        left: -5px;
+        top: 173px;
+        width: 50px;
+        height: 35px;
+    }
+    
+    .arrow-back a {
+        top: -198px;
+        font-size: 0px;
+    }
+
+    .seta img {
+        width: 20px;
+    }
+
+    .wrapperheaderpodcast {
+        height: 100px;
+    }
+    
+    .wrapperheaderlogo {
+        height: 45%;
+    }
+    
+    .wrapperheader {
+        position: relative;
+        top: 45px;
+        height: 100px; 
+    }
+    
+    .wrapperheaderlogo a {
+        width: 30%;
+        top: 15px;
+    }
+
+    .site-header {
+        min-height: 350px;
+    }
+    
+    .site-header-podcast {
+        min-height: 100px;
+        padding: 10px;
+    }
 }

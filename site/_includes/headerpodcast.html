@@ -1,10 +1,5 @@
 <header class="site-header-podcast">
-    <div class="arrow-back seta">
-        <a rel="author" href="{{ site.homeurl }}">
-            <img src="{{ site.homeurl }}img/arrow.svg" class="media-object  img-responsive img-thumbnail"> Todos os Episódios</a>
-    </div>
     
-
     <div class="wrapperheaderpodcast">
         <div class="header-podcast-title">
             <h1>{{ page.title }}</h1>
@@ -13,11 +8,16 @@
         </div>
     </div>
 
-    <div class="wrapperheaderpodcast">
+    <div class="wrapperheaderpodcast top">
         <audio class="pod" preload="none" controls="controls">
             <source src="{{ page.podcast_file_permalink }}" type="audio/mpeg" />
             seu navegador não suporta HTML5
         </audio>
+    </div>
+
+    <div class="arrow-back seta">
+        <a rel="author" href="{{ site.homeurl }}">
+            <img src="{{ site.homeurl }}img/arrow.svg" class="media-object  img-responsive img-thumbnail"> Todos os Episódios</a>
     </div>
 
 </header>
