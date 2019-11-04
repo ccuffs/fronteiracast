@@ -10,7 +10,7 @@ tags:
 image: fronteira-cast-logo.jpeg
 permalink: /1/
 podcast_episode: 1
-podcast_file_permalink: https://api.spreaker.com/download/episode/19826270/fc_1_revolu_es_industriais_e_o_trabalho.mp3
+podcast_file_permalink: https://api.spreaker.com/download/episode/19848610/fc_1_revolu_es_industriais_e_o_trabalho.mp3
 podcast_file_size: 108.4 MB
 podcast_duration: "46:15"
 podcast_length: 2775
