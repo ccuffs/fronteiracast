@@ -1,11 +1,8 @@
 
 # Podcast FronteiraCast
 
-  O FronteiraCast é um novo projeto de cultura que está sendo realizado por estudantes de Ciência da Computação da UFFS       Campus Chapecó em conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
-  
-**Acadêmicos responsáveis pelo projeto:** Cleisson Vieira Raimundi, Isabeli Rosana Reik, Matheus Dias Negrao e Vinicius dos Reis.
+  O FronteiraCast é um novo projeto de cultura que está sendo realizado por estudantes de Ciência da Computação da UFFS Campus Chapecó em conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
 
-**Acadêmicos contribuintes:** Nicolas kolling Ribas e Estela Vilas Boas.
 
 #### O projeto foi criado pelo curso de Ciência da Computação mas é destinado não só a toda comunidade acadêmica da Universidade Federal da Fronteira Sul como público em geral.
 
