@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.player_home {
+    position: relative;
+    width: 100%;
+}
+
+.player_post {
+    position: relative;
+    width: 70%;
+}
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css);
+
+.music_player{
+  position: absolute;
+  margin: 0 auto;
+  background: rgba(1, 2, 2, 0.65);
+  height:80%;
+  width:40%;
+  -webkit-box-shadow:10px 0px 20px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 7px 20px -6px rgba(0,0,0,0.75);
+  box-shadow: 10px 0px 20px -6px  rgba(0,0,0,0.75);
+
+    .controllers{
+        background:rgba(1, 2, 2, 0.8);
+        height:100%;
+        width:100%;
+        position:absolute;
+        right:0;
+        bottom:0;
+        font-family:FontAwesome;
+        text-align:center;
+        color:rgb(64, 64, 149);
+        i{
+            position:relative;
+            bottom:-0.7rem;
+            padding:0 20px 0 20px;
+            top: 20px;
+        }
+    }
+    
+    i{
+        cursor :pointer;
+    }
+    i:hover{
+        color: blue;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .music_player {
+        top: 40px;
+        height:40px;
+        width:80%;
+        .controllers {
+            background:rgba(1, 2, 2, 1.0);
+            i {
+                top: 10px;
+            }
+        }
+    }
+
+
+    .player_home {
+        width: 250px;
+        height: 35px;
+        top: 5px;
+    }
+
+    .player_post {
+        top: 12px;
+        width: 85%;
+        height: 20px;
+    }
+
+}

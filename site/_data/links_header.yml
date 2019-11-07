@@ -1,0 +1,23 @@
+- itunes:
+  name: Apple
+  title: Apple Podcast
+  icon: img/icons/itunes.png
+  url: https://podcasts.apple.com/br/podcast/fronteiracast/id1485615609
+
+- google:
+  name: Google
+  title: Google Podcast
+  icon: img/icons/googlepodcast.png
+  url: https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDEyNTMyNS9lcGlzb2Rlcy9mZWVk
+
+- spotify:
+  name: Spotify
+  title: Spotify Podcast
+  icon: img/icons/spotify.png
+  url: https://open.spotify.com/show/3HmxYmKcuvQ4Lm5hDJWVBi?si=VF8Qb3P_QhuPCE8Mzpm2xw
+
+- castbox:
+  name: CastBox
+  title: CastBox Podcast
+  icon: img/icons/castbox.png
+  url: https://castbox.fm/channel/id2440853

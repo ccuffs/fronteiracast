@@ -3,52 +3,33 @@
   <!-- AQUI VAI A LOGO -->
   <div class="wrapperheaderlogo">
     <a class="site-title" rel="author" href="{{ site.homeurl }}">
-      <img src="{{ site.homeurl }}img/fronteira-cast-logo-redondo.png" class="media-object  img-responsive img-thumbnail">
+      <img src="{{ site.homeurl }}img/fc_logos/fronteira-cast-logo-redondo.png" class="media-object  img-responsive img-thumbnail">
     </a>
   </div>
 
   <!-- AQUI VAI OS LINKS-->
   <div class="wrapperheader">
+    {% for links in site.data.links_header %}
       <div class="linksAccess">
-          <a href="https://podcasts.apple.com/br/podcast/fronteiracast/id1485615609" title="Apple podcast">
-              <img class="img" src="{{ site.homeurl }}img/itunes.png" alt="Apple Podcast PNG">Apple</a>
+          <a href="{{ links.url }}" title="{{ links.title }}">
+              <img class="img" src="{{ site.homeurl }}{{ links.icon }}">{{ links.name }}</a>
       </div>
-      <!-- <div class="linksAccess">
-          <a href="" title="Google podcast">
-              <img class="img" src="{{ site.homeurl }}img/googlepodcast.png" alt="Google Podcast PNG">Google</a>
-      </div> -->
+    {% endfor %}
+
       <div class="linksAccess">
-        <a href="https://open.spotify.com/show/3HmxYmKcuvQ4Lm5hDJWVBi?si=VF8Qb3P_QhuPCE8Mzpm2xw" title="Spotify podcast">
-          <img class="img" src="{{ site.homeurl }}img/spotify.png" alt="Transparent Spotify Png"/>Spotify</a>
-      </div>
-      <div class="linksAccess">
-          <a href="https://castbox.fm/channel/id2440853" title="CastBox">
-              <img class="img" src="{{ site.homeurl }}img/castbox.png" alt="CastBox Podcast PNG">CastBox</a>
-      </div>
-      <div class="linksAccess">
-        <a href="{{ site.homeurl }}/feed.xml" title="Inscreva-se via RSS">
-          <img class="rss" src="{{ site.homeurl }}img/RSS.png" alt="Transparent Spotify Png"/>RSS</a>
+        <a href="{{ site.homeurl }}feeds/feed_fronteiracast.xml" title="Inscreva-se via RSS">
+          <img class="rss" src="{{ site.homeurl }}img/icons/RSS.png"/>RSS</a>
       </div>
   </div>
 
-  <!-- AQUI VAI OS AUTORES DO PODCAST -->
   <div class="wrapperheader">
-    <div class="authorAccess">
-      <a href="" rel="external" title="Cleisson Vieira Raimundi">
-        <img src="{{ site.homeurl }}img/cleisson.jpeg" data-loaded="true">Cleisson V. Raimundi</a>
-    </div>
-    <div class="authorAccess">
-      <a href="" rel="external" title="Isabeli Rosana Reik">
-        <img src="{{ site.homeurl }}img/isabeli.jpeg" data-loaded="true">Isabeli Rosana Reik</a>
-    </div>     
-    <div class="authorAccess">
-      <a href="" rel="external" title="Matheus Dias Negrao">
-        <img src="{{ site.homeurl }}img/negrao.jpeg" data-loaded="true">Matheus Dias Negrao</a>
-    </div>
-    <div class="authorAccess">
-      <a href="" rel="external" title="Vinicius de Jesus dos Reis">
-        <img src="{{ site.homeurl }}img/vini.jpeg" data-loaded="true">Vinicius dos Reis</a>
-    </div>      
+      {% for author in site.data.authors %}
+        <div class="authorAccess">
+          <a href="{{ author.page }}" rel="external" title="{{ author.name }}">
+            <img src="{{ site.homeurl }}{{ author.img }}" data-loaded="true">{{ author.name }}</a>
+        </div>
+      {% endfor %}
   </div>
 
 </header>
+ 

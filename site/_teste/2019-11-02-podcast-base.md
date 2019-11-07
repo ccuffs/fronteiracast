@@ -1,0 +1,43 @@
+---
+layout: post
+title: "Salve-se Quem Puder! A evolução da tecnologia e o futuro do trabalho"
+date_hour: 2019-11-03 08:30
+categories: podcast
+tags:
+- tagone
+- tagtwo
+- tagthree
+image: fronteira-cast-logo.jpeg
+permalink: /1/
+podcast_episode: 1
+podcast_file_permalink: https://api.spreaker.com/download/episode/19848610/fc_1_revolu_es_industriais_e_o_trabalho.mp3
+podcast_file_size: 108.4 MB
+podcast_duration: "46:15"
+podcast_length: 2775
+author: Cleisson Vieira Raimundi, Matheus Dias Negrao, Mauricio Bozatski e Vinicius dos Reis
+resumo: Neste episódio recebemos o professor Mauricio Bozatski do curso de Filosofia para falar sobre a evolução do trabalho durante as revoluções industriais e como será o futuro.
+description: '<br> <br> Neste episódio recebemos o professor Mauricio Bozatski do curso de Filosofia para falar sobre a evolução do trabalho durante as revoluções industriais e como será o futuro. <br> <br>
+
+**Livro Tecnologia e o Mundo da Vida: do Jardim à Terra:** <a href="https://bit.ly/2CgwAHj">https://bit.ly/2CgwAHj</a> <br> <br>
+
+**Convidado:** Mauricio Bozatski - <a href="http://www.postech.nl/">http://www.postech.nl/</a> <br> <br>
+
+**Sugestões e Criticas:** <a href="https://forms.gle/YGqgmjNsGP8QgNDT8">https://forms.gle/YGqgmjNsGP8QgNDT8</a> <br> <br>
+
+**Apresentadores:** <br>
+Cleisson Vieira Raimundi: <a href="https://bit.ly/33faZLt">https://bit.ly/33faZLt</a> <br> 
+Isabeli Rosana Reik: <a href="https://bit.ly/2WEOYmV">https://bit.ly/2WEOYmV</a> <br>
+Matheus Dias Negrão: <a href="https://bit.ly/2r74VGx">https://bit.ly/2r74VGx</a> <br>
+Vinicius dos Reis: <a href="https://bit.ly/34nEElI">https://bit.ly/34nEElI</a> <br> <br>
+
+**Artes Visuais:** Estela Vilas Boas - <a href="https://bit.ly/2WDzkbm">https://bit.ly/2WDzkbm</a> e <a href="https://bit.ly/2NK7aaK">https://bit.ly/2NK7aaK</a> <br> <br> 
+ 
+**Site e Distribuição:** Nicolas Kolling Ribas - <a href="https://bit.ly/2NBTG0x">https://bit.ly/2NBTG0x</a> <br> <br>
+
+**E-mail para contato:** poduffs@gmail.com <br> <br>
+
+**Trilhas Sonoras:** <a href="https://bit.ly/2WKN8Rh">https://bit.ly/2WKN8Rh</a> e <a href="https://bit.ly/36BUyer">https://bit.ly/36BUyer</a>'
+---
+
+
+{{ page.description}}

@@ -3,21 +3,25 @@
     <div class="wrapperheaderpodcast">
         <div class="header-podcast-title">
             <h1>{{ page.title }}</h1>
-            <h6>{{ page.date | date: "%A, %-d %B %Y"}}</h6>
-            <h5>Participantes: {{ page.author }}</h5>
+            <h6>{{ page.pubDate | date: "%A, %-d %B %Y"}}</h6>
+            <h5>Participantes: {{ page.participants }}</h5>
         </div>
     </div>
 
-    <div class="wrapperheaderpodcast top">
-        <audio class="pod" preload="none" controls="controls">
-            <source src="{{ page.podcast_file_permalink }}" type="audio/mpeg" />
-            seu navegador não suporta HTML5
-        </audio>
+    <div class="wrapperheaderplayer">
+        <div class="music_player">
+            <div class="controllers"> 
+                <i onmousedown="document.getElementById('player').currentTime-=10" class="fa fa-fast-backward" aria-hidden="true"></i>
+                <i onclick="document.getElementById('player').play()" class="fa fa-play" aria-hidden="true"></i>
+                <i onclick="document.getElementById('player').pause()" class="fa fa-pause" aria-hidden="true"></i>
+                <i onmousedown="document.getElementById('player').currentTime+=10" class="fa fa-fast-forward" aria-hidden="true"></i>
+            </div>
+        </div>
     </div>
 
     <div class="arrow-back seta">
         <a rel="author" href="{{ site.homeurl }}">
-            <img src="{{ site.homeurl }}img/arrow.svg" class="media-object  img-responsive img-thumbnail"> Todos os Episódios</a>
+            <img src="{{ site.homeurl }}img/icons/arrow.svg" class="media-object  img-responsive img-thumbnail"> Todos os Episódios</a>
     </div>
 
 </header>

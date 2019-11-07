@@ -1,0 +1,50 @@
+- podcast:
+  id: 1
+  permalink: /
+  title: Fronteira Cast
+  link_xml: https://uffs.cc/fronteiracast/feeds/feed_fronteiracast
+  description: 'O FronteiraCast é um quadro geral dentro do projeto que aborda diversos temas.'
+  image_title: FronteiraCast
+  image_url: https://uffs.cc/fronteiracast/img/fc_logos/logo_xml.png
+  podcast_link: https://uffs.cc/fronteiracast/
+  author: Cleisson Raimundi, Matheus Negrao, Vinicius dos Reis
+  category: Education &amp; Science
+  
+- podcast:
+  id: 2
+  permalink: /dnauffs
+  title: Dna UFFS
+  link_xml: https://uffs.cc/fronteiracast/feeds/feed_dnauffs
+  description: 'O DnaUFFS é um quadro voltado aos cursos da Universidade Federal da Fronteira Sul - Campus Chapecó.'
+  image_title: DnaUffs 
+  image_url: https://uffs.cc/fronteiracast/img/du_logos/logo_xml.png
+  podcast_link: https://uffs.cc/fronteiracast/dnauffs
+  author: 
+  category: Education &amp, Informative
+
+- podcast:
+  id: 3
+  permalink: /noticia
+  title: Ta Rolando
+  link_xml: https://uffs.cc/fronteiracast/feeds/feed_noticias
+  description: 'O Ta Rolando é um quadro que busca trazer notícias gerais de uma forma diferente.'
+  image_title: TaRolando
+  image_url: https://uffs.cc/fronteiracast/img/tr_logos/logo_xml.png
+  podcast_link: https://uffs.cc/fronteiracast/noticia
+  author: Cleisson Vieira Raimundi
+  category: Education &amp, News
+
+- podcast:
+  id: 4
+  permalink: /disclaimer
+  title: Disclaimer
+  link_xml: https://uffs.cc/fronteiracast/feeds/feed_disclaimer
+  description: 'O Disclaimer é um quadro livre para o público. Um espaço onde os participantes tem total responsabilidade pelo episódio e não há participação do Fronteira Cast.' 
+  image_title: Disclaimer
+  image_url: https://uffs.cc/fronteiracast/img/dc_logos/logo_xml.png
+  podcast_link: https://uffs.cc/fronteiracast/disclaimer
+  author: 
+  category: Education &amp, Free
+  
+  
+  
