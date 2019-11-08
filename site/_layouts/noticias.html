@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+  
+  <div class="content list">
+    {% if site.posts.size == 0 %}
+      <h2>No post found</h2>
+    {% else %}
+      {% for post in site.categories.noticias %}
+        <div class="list-item borda-inferior">
+          <h2 class="list-post-title fontep">
+            <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+          </h2>
+          <p>Episódio #{{ post.number_ep }}</p>
+
+          <div>
+            <p>{{ post.subtitle }}</p>
+          </div>
+
+          <div>
+            <audio class="player_home" id="player" preload="none" controls>
+                <source src="{{ post.mp3_permalink }}" type="audio/mpeg">
+                Seu navegador não suporta áudio em HTML5, atualize-o.
+            </audio>
+          </div>
+
+          <div class="list-post-date">
+            <time>{{ post.pubDate | date_to_string }}</time>
+          </div>
+        </div>
+        
+      {% endfor %}
+    {% endif %}
+    </div>
+
+
+
+    
+  
+	
+	
+
+  

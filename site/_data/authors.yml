@@ -1,27 +1,35 @@
-# cleisson_raimundi:
-#     name: Cleisson V. Raimundi
-#     email: cleisson.raimundi@gmail.com
-#     github: https://github.com/CleissonVieira
-#     instagram: "@cleisson.raimundi"
-#     linkedin: https://www.linkedin.com/in/cleisson-vieira-raimundi-b57ba9142/
+- cleisson_raimundi:
+  name: Cleisson V. Raimundi
+  wemail: cleisson.raimundi@gmail.com
+  github: https://github.com/CleissonVieira
+  instagram: "@cleisson.raimundi"
+  linkedin: https://www.linkedin.com/in/cleisson-vieira-raimundi-b57ba9142/
+  img: img/authors/cleisson.jpeg
+  page: https://CleissonVieira.github.io 
 
-# isabeli_reik:
-#   name: Isabeli R. Reik
-#   email: isabelireik2@gmail.com
-#   github: https://github.com/isabelirk
-#   instagram: "@isabeli.rk"
-#   linkedin: https://www.linkedin.com/in/isabeli-reik-872981162/
+- isabeli_reik:
+  name: Isabeli R. Reik
+  email: isabelireik2@gmail.com
+  github: https://github.com/isabelirk
+  instagram: "@isabeli.rk"
+  linkedin: https://www.linkedin.com/in/isabeli-reik-872981162/
+  img: img/authors/isabeli.jpeg
+  page: https://isabelirk.github.io
 
-# matheus_negrao:
-#   name: Matheus D. Negrao
-#   email: matheus.dnegrao@gmail.com
-#   github: https://github.com/MaNegrao
-#   instagram: "@n.egrao"
-#   linkedin: https://www.linkedin.com/in/matheus-negr%C3%A3o-a95160166/
+- matheus_negrao:
+  name: Matheus D. Negrao
+  email: matheus.dnegrao@gmail.com
+  github: https://github.com/MaNegrao
+  instagram: "@n.egrao"
+  linkedin: https://www.linkedin.com/in/matheus-negr%C3%A3o-a95160166/
+  img: img/authors/negrao.jpeg
+  page: https://MaNegrao.github.io
 
-# vinicius_reis:
-#   name: Vinicius J. dos Reis
-#   email: viniciusdosreis312@gmail.com
-#   github:
-#   instagram: "@vini2reis08"
-#   linkedin:
+- vinicius_reis:
+  name: Vinicius J. dos Reis
+  email: viniciusdosreis312@gmail.com
+  github: https://github.com/vini2reis
+  instagram: "@vini2reis08"
+  linkedin:
+  img: img/authors/vini.jpeg
+  page: https://vini2reis.github.io

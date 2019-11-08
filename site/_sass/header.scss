@@ -14,6 +14,10 @@
     padding-top: 80px;
 }
 
+.header-podcast-title {
+    top: 0px;
+}
+
 .arrow-back {
     background-color: rgba(197, 200, 207, 0.2);
     border-radius: 5px;
@@ -102,14 +106,7 @@
 
 //Outros 
 
-.pod {
-    width: 50%;
-    padding: 5px;
-    border-radius: 20px;;  
-    background-color: rgba(197, 200, 207, 0.2);
-}
-
-.wrapperheader, .wrapperheaderlogo, .wrapperheaderpodcast {
+.wrapperheader, .wrapperheaderlogo, .wrapperheaderpodcast, .wrapperheaderplayer {
     position: relative;
     float: left;
     width: 100%;
@@ -119,8 +116,12 @@
     align-items: center
 }
 
+.wrapperheaderplayer {
+    height: 80px;
+}
+
 .wrapperheaderpodcast {
-    height: 190px;
+    height: 300px;
 }
 
 .wrapperheaderlogo {
@@ -145,7 +146,6 @@
 .fontep a{
     font-family: Arial, Helvetica, sans-serif;
     color: inherit;
-    text-decoration: none;
     font-weight: bold;
 }
 
@@ -190,28 +190,24 @@
 
 
     .header-podcast-title h1 {
-        padding-top: 80px;
+        padding-top: 55px;
         font-size: 20px;
+
     }
 
     .top {
         top: 42px;
     }
 
-    .pod {
-        width: 60%;
-        height: 30px;
-    }
-
     .arrow-back {
         left: -5px;
-        top: 173px;
-        width: 50px;
-        height: 35px;
+        top: 180px;
+        width: 35px;
+        height: 30px;
     }
     
     .arrow-back a {
-        top: -198px;
+        top: -203px;
         font-size: 0px;
     }
 
@@ -220,9 +216,13 @@
     }
 
     .wrapperheaderpodcast {
-        height: 100px;
+        height: 150px;
     }
-    
+
+    .wrapperheaderplayer {
+        height: 50px;
+    }
+
     .wrapperheaderlogo {
         height: 45%;
     }

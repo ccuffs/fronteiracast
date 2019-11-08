@@ -1,0 +1,56 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+xmlns:content="http://purl.org/rss/1.0/modules/content/"
+xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:atom="http://www.w3.org/2005/Atom"
+xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
+>
+    {% assign vetor = site.data.podcasts | where: "id","1" %}
+    {% assign fc = vetor[0] %}
+    <channel>
+        <title>{{fc.title}}</title>
+        <atom:link href="{{ fc.link_xml }}" rel="self" type="application/rss+xml" /><link>https://uffs.cc/fronteiracast</link>
+        <link>{{ site.homeurl }}</link>
+        <description>{{ fc.description }}</description>
+        <language>{{ site.language }}</language>
+        <image>
+            <title>{{ fc.image_title }}</title>
+            <url>{{ fc.image_url }}</url>
+            <link>{{ fc.podcast_link }}</link>
+        </image>
+        <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+        <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <webMaster>{{ site.homeurl }}</webMaster>
+        <itunes:author>{{ fc.author }}</itunes:author>
+        <itunes:category text="{{ fc.category }}"></itunes:category>
+        <itunes:image href="{{ fc.image_url }}"/>
+        <itunes:explicit>{{ site.explicit }}</itunes:explicit>
+        <itunes:owner>
+            <itunes:name>{{ site.owner }}</itunes:name>
+            <itunes:email>{{ site.email }}</itunes:email>
+        </itunes:owner>
+        {% for episode in site.categories.fronteiracast %}
+            <item id="{{episode.number_ep}}">
+                <title>{{episode.title}}</title>
+                <description>{{ site.init }}{{episode.description}}{{ site.end }}</description>
+                <guid isPermaLink="false">{{episode.mp3_permalink}}</guid>
+                <enclosure url="{{episode.permalink}}" length="{{episode.mp3_length}}" type="audio/mpeg"/>
+                <pubDate>{{ episode.pubDate }}</pubDate>
+                <itunes:duration>{{ episode.mp3_duration }}</itunes:duration>
+                <itunes:subtitle>{{ episode.subtitle }}</itunes:subtitle>
+                <itunes:summary>{{ episode.subtitle }}</itunes:summary>
+                <itunes:author>{{ site.author }}</itunes:author>
+                <itunes:explicit>{{ site.explicit }}</itunes:explicit>
+                <titleApp>{{ episode.title }}</titleApp>
+                <topTitleApp>{{ site.subtitle }}</topTitleApp>
+                <link></link>
+            </item>
+        {% endfor %}
+    </channel>
+</rss>
