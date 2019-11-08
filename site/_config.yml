@@ -1,12 +1,8 @@
 title: Fronteira Cast
 baseurl: "/fronteiracast"
 
-# url: "https://uffs.cc" # the base hostname & protocol for your site, e.g. http://example.com
-# homeurl: "https://uffs.cc/fronteiracast/"
-
-# PARA TESTAR NA SUA MÁQUINA COMENTAR URL E HOMEURL ACIMA E DESCOMENTAR AS DEBAIXO
-url: http://127.0.0.1:4000
-homeurl: http://127.0.0.1:4000/fronteiracast/
+url: "https://uffs.cc" # the base hostname & protocol for your site, e.g. http://example.com
+homeurl: "https://uffs.cc/fronteiracast/"
 
 #XML Padrão
 language: pt-BR
