@@ -27,7 +27,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
         <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <webMaster>{{ site.homeurl }}</webMaster>
-        <itunes:author>{{ fc.author }}</itunes:author>
+        <itunes:author>{{ site.owner }}</itunes:author>
         <itunes:category text="{{ fc.category }}"></itunes:category>
         <itunes:image href="{{ fc.image_url }}"/>
         <itunes:explicit>{{ site.explicit }}</itunes:explicit>
