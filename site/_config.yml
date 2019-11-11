@@ -1,4 +1,4 @@
-title: Fronteira Cast
+title: FronteiraCast
 baseurl: "/fronteiracast"
 
 url: "https://uffs.cc" # the base hostname & protocol for your site, e.g. http://example.com
@@ -10,7 +10,7 @@ author: PodUFFS
 explicit: 'No' 
 owner: PodUFFS
 email: poduffs@gmail.com
-participants: Cleisson Vieira Raimundi, Isabeli Rosana Reik, Matheus Dias Negrao, Mauricio Bozatski e Vinicius dos Reis
+participants: Cleisson Vieira Raimundi, Isabeli Rosana Reik, Matheus Dias Negrao e Vinicius dos Reis
 
 init: '<![CDATA['
 end: ']]>'

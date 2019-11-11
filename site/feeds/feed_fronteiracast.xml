@@ -19,6 +19,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <link>{{ site.homeurl }}</link>
         <description>{{ fc.description }}</description>
         <language>{{ site.language }}</language>
+        <category>{{ fc.category }}</category>
         <image>
             <title>{{ fc.image_title }}</title>
             <url>{{ fc.image_url }}</url>
@@ -39,7 +40,8 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <item id="{{episode.number_ep}}">
                 <title>{{episode.title}}</title>
                 <description>{{ site.init }}{{episode.description}}{{ site.end }}</description>
-                <guid isPermaLink="false">{{episode.mp3_permalink}}</guid>
+                <itunes:keywords>{{episode.keywords}}</itunes:keywords>
+                <guid isPermaLink="true">{{episode.mp3_permalink}}</guid>
                 <enclosure url="{{episode.permalink}}" length="{{episode.mp3_length}}" type="audio/mpeg"/>
                 <pubDate>{{ episode.pubDate }}</pubDate>
                 <itunes:duration>{{ episode.mp3_duration }}</itunes:duration>

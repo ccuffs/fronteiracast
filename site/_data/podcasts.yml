@@ -3,11 +3,11 @@
   permalink: /
   title: Fronteira Cast
   link_xml: https://uffs.cc/fronteiracast/feeds/feed_fronteiracast
-  description: 'O FronteiraCast é um quadro geral dentro do projeto que aborda diversos temas.'
+  description: 'O FronteiraCast é o podcast principal do projeto PodUFFS, no FronteiraCast temos convidados todas as semanas para debater um tema de interesse da Comunidadade Academica'
   image_title: FronteiraCast
   image_url: https://uffs.cc/fronteiracast/img/fc_logos/logo_xml.png
   podcast_link: https://uffs.cc/fronteiracast/
-  author: Cleisson Raimundi, Matheus Negrao, Vinicius dos Reis
+  author: Cleisson Raimundi, Isabeli Reik, Matheus Negrao, Vinicius dos Reis
   category: Education &amp; Science
   
 - podcast:
