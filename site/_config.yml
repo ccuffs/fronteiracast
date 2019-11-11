@@ -6,10 +6,11 @@ homeurl: "https://uffs.cc/fronteiracast/"
 
 #XML Padrão
 language: pt-BR
-author: Cleisson Vieira Raimundi, Isabeli Rosana Reik, Matheus Dias Negrao e Vinicius dos Reis
+author: PodUFFS
 explicit: 'No' 
 owner: PodUFFS
 email: poduffs@gmail.com
+participants: Cleisson Vieira Raimundi, Isabeli Rosana Reik, Matheus Dias Negrao, Mauricio Bozatski e Vinicius dos Reis
 
 init: '<![CDATA['
 end: ']]>'

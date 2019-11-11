@@ -27,7 +27,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
         <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <webMaster>{{ site.homeurl }}</webMaster>
-        <itunes:author>{{ site.owner }}</itunes:author>
+        <itunes:author>{{ site.author }}</itunes:author>
         <itunes:category text="{{ fc.category }}"></itunes:category>
         <itunes:image href="{{ fc.image_url }}"/>
         <itunes:explicit>{{ site.explicit }}</itunes:explicit>
@@ -45,7 +45,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
                 <itunes:duration>{{ episode.mp3_duration }}</itunes:duration>
                 <itunes:subtitle>{{ episode.subtitle }}</itunes:subtitle>
                 <itunes:summary>{{ episode.subtitle }}</itunes:summary>
-                <itunes:author>{{ site.owner }}</itunes:author>
+                <itunes:author>{{ site.author }}</itunes:author>
                 <itunes:explicit>{{ site.explicit }}</itunes:explicit>
                 <titleApp>{{ episode.title }}</titleApp>
                 <topTitleApp>{{ site.subtitle }}</topTitleApp>
