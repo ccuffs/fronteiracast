@@ -4,7 +4,7 @@
     <img src="https://img.shields.io/travis/ccuffs/template?style=for-the-badge" title="Status do build">
 </p>
 
-# Podcast Fronteira Cast
+# Podcast FronteiraCast
 
 O FronteiraCast é um novo projeto de cultura que está sendo realizado por estudantes de Ciência da Computação da UFFS Campus Chapecó em conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
 
