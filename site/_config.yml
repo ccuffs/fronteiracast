@@ -1,13 +1,16 @@
 title: FronteiraCast
 baseurl: "/fronteiracast"
 
-url: "https://uffs.cc" # the base hostname & protocol for your site, e.g. http://example.com
-homeurl: "https://uffs.cc/fronteiracast/"
+# url: "https://uffs.cc" # the base hostname & protocol for your site, e.g. http://example.com
+# homeurl: "https://uffs.cc/fronteiracast/"
+
+url: "http://127.0.0.1:4000/" # the base hostname & protocol for your site, e.g. http://example.com
+homeurl: "http://127.0.0.1:4000/fronteiracast/"
 
 #XML Padrão
 language: pt-BR
 author: PodUFFS
-explicit: 'No' 
+explicit: 'no' 
 owner: PodUFFS
 email: poduffs@gmail.com
 participants: Cleisson Vieira Raimundi, Isabeli Rosana Reik, Matheus Dias Negrao e Vinicius dos Reis
