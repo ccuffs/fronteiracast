@@ -14,10 +14,10 @@
   name: Spotify
   title: Spotify Podcast
   icon: img/icons/spotify.png
-  url: https://open.spotify.com/show/3HmxYmKcuvQ4Lm5hDJWVBi?si=VF8Qb3P_QhuPCE8Mzpm2xw
+  url: https://open.spotify.com/show/3RKvFyaS3JzSlpvoBouxfA
 
-- castbox:
-  name: CastBox
-  title: CastBox Podcast
-  icon: img/icons/castbox.png
-  url: https://castbox.fm/channel/id2440853
+- deezer:
+  name: Deezer
+  title: Deezer Podcast
+  icon: img/icons/deezer.png
+  url: https://www.deezer.com/br/show/668362
