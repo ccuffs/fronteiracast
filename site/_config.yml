@@ -30,7 +30,6 @@ plugins:
   - jekyll-feed
 
 markdown: kramdown
-permalink: /:title
 
 
 #INFORMAÇÕES xml
