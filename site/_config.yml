@@ -16,10 +16,8 @@ init: '<![CDATA['
 end: ']]>'
 
 
-description: >- # this means to ignore newlines until "baseurl:"
-  O FronteiraCast é um novo projeto de cultura que está sendo realizado
-  por estudantes de Ciência da Computação da UFFS Campus Chapecó em
-  conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
+description: >- 
+  O PodUFFS é um novo projeto de cultura que está sendo realizado por estudantes de Ciência da Computação da UFFS Campus Chapecó em conjunto com o coordenador do curso Fernando Bevilacqua e professor Maurício Bozatski da área da Filosofia.
 
 instagram_username: fronteira.cast
 github_username:  FronteiraCast

@@ -8,7 +8,7 @@
   name: Google
   title: Google Podcast
   icon: img/icons/googlepodcast.png
-  url: https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3ByZWFrZXIuY29tL3Nob3cvNDEyNTMyNS9lcGlzb2Rlcy9mZWVk
+  url: https://podcasts.google.com/?feed=aHR0cHM6Ly91ZmZzLmNjL2Zyb250ZWlyYWNhc3QvZmVlZHMvZmVlZF9mcm9udGVpcmFjYXN0LnhtbA
 
 - spotify:
   name: Spotify

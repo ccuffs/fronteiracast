@@ -10,7 +10,7 @@ layout: default
       {% for post in site.categories.fronteiracast %}
         <div class="list-item borda-inferior">
           <h2 class="list-post-title fontep">
-            <b>{{ post.title }}</b>
+            <b><a href="{{site.baseurl}}{{post.permalink}}">{{ post.title }}</a></b>
           </h2>
           <p>Episódio #{{ post.number_ep }}</p>
 
