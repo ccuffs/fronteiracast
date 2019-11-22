@@ -15,7 +15,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
     {% assign fc = vetor[0] %}
     <channel>
         <title>{{fc.title}}</title>
-        <atom:link href="{{ fc.link_xml }}" rel="self" type="application/rss+xml" />
+        <atom:link href="{{ fc.link_xml }}" rel="self" title="Podcast" type="application/rss+xml" /><link>https://uffs.cc/fronteiracast</link>
         <link>{{ site.homeurl }}</link>
         <link type="application/rss+xml" rel="alternate" title="{{ fc.title }}" href="{{ site.homeurl }}"/>
         <description>{{ fc.description }}</description>
