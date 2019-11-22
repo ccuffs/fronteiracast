@@ -17,8 +17,10 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <title>{{fc.title}}</title>
         <atom:link href="{{ fc.link_xml }}" rel="self" title="Podcast" type="application/rss+xml" /><link>https://uffs.cc/fronteiracast</link>
         <link>{{ site.homeurl }}</link>
+        <link type="application/rss+xml" rel="alternate" title="{{ fc.title }}" href="{{ site.homeurl }}"/>
         <description>{{ fc.description }}</description>
         <language>{{ site.language }}</language>
+        <category>{{ fc.category }}</category>
         <image>
             <title>{{ fc.image_title }}</title>
             <url>{{ fc.image_url }}</url>
@@ -28,7 +30,12 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
         <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <webMaster>{{ site.homeurl }}</webMaster>
         <itunes:author>{{ site.author }}</itunes:author>
-        <itunes:category text="{{ fc.category }}"></itunes:category>
+        <itunes:category text="{{ fc.category-1 }}">
+            <itunes:category text="{{ fc.subcategory-1 }}"/>
+        </itunes:category>
+        <itunes:category text="{{ fc.category-2 }}">
+            <itunes:category text="{{ fc.subcategory-2 }}"/>
+        </itunes:category>
         <itunes:image href="{{ fc.image_url }}"/>
         <itunes:explicit>{{ site.explicit }}</itunes:explicit>
         <itunes:owner>
@@ -39,8 +46,9 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
             <item id="{{episode.number_ep}}">
                 <title>{{episode.title}}</title>
                 <description>{{ site.init }}{{episode.description}}{{ site.end }}</description>
-                <guid isPermaLink="false">{{episode.mp3_permalink}}</guid>
-                <enclosure url="{{episode.permalink}}" length="{{episode.mp3_length}}" type="audio/mpeg"/>
+                <itunes:keywords>{{episode.keywords}}</itunes:keywords>
+                <guid isPermaLink="true">{{episode.mp3_permalink}}</guid>
+                <enclosure url="{{episode.mp3_permalink}}" length="{{episode.mp3_length}}" type="audio/mpeg"/>
                 <pubDate>{{ episode.pubDate }}</pubDate>
                 <itunes:duration>{{ episode.mp3_duration }}</itunes:duration>
                 <itunes:subtitle>{{ episode.subtitle }}</itunes:subtitle>
@@ -49,7 +57,7 @@ xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
                 <itunes:explicit>{{ site.explicit }}</itunes:explicit>
                 <titleApp>{{ episode.title }}</titleApp>
                 <topTitleApp>{{ site.subtitle }}</topTitleApp>
-                <link></link>
+                <link>{{site.homeurl}}{{fc.permalink}}{{episode.permalink}}</link>
             </item>
         {% endfor %}
     </channel>

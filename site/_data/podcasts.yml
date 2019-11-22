@@ -1,14 +1,17 @@
 - podcast:
   id: 1
   permalink: /
-  title: Fronteira Cast
+  title: FronteiraCast
   link_xml: https://uffs.cc/fronteiracast/feeds/feed_fronteiracast
-  description: 'O FronteiraCast é um quadro geral dentro do projeto que aborda diversos temas.'
+  description: 'O FronteiraCast é o podcast principal do projeto PodUFFS, no FronteiraCast temos convidados todas as semanas para debater um tema de interesse da Comunidadade Academica'
   image_title: FronteiraCast
   image_url: https://uffs.cc/fronteiracast/img/fc_logos/logo_xml.png
   podcast_link: https://uffs.cc/fronteiracast/
-  author: Cleisson Raimundi, Matheus Negrao, Vinicius dos Reis
-  category: Education &amp; Science
+  author: Cleisson Raimundi, Isabeli Reik, Matheus Negrao, Vinicius dos Reis
+  category-1: Society &amp; Culturece
+  subcategory-1: Documentary
+  category-2: Science
+  subcategory-2: Life-Science 
   
 - podcast:
   id: 2
@@ -19,8 +22,11 @@
   image_title: DnaUffs 
   image_url: https://uffs.cc/fronteiracast/img/du_logos/logo_xml.png
   podcast_link: https://uffs.cc/fronteiracast/dnauffs
-  author: 
-  category: Education &amp, Informative
+  author:
+  category-1: Education
+  subcategory-1: Courses 
+  category-2: Science
+  subcategory-2: Life-Science 
 
 - podcast:
   id: 3
@@ -32,7 +38,10 @@
   image_url: https://uffs.cc/fronteiracast/img/tr_logos/logo_xml.png
   podcast_link: https://uffs.cc/fronteiracast/noticia
   author: Cleisson Vieira Raimundi
-  category: Education &amp, News
+  category-1: News
+  subcategory-1: News Commentary
+  category-2: Science
+  subcategory-2: Life-Science 
 
 - podcast:
   id: 4
@@ -44,7 +53,10 @@
   image_url: https://uffs.cc/fronteiracast/img/dc_logos/logo_xml.png
   podcast_link: https://uffs.cc/fronteiracast/disclaimer
   author: 
-  category: Education &amp, Free
+  category-1: Society &amp; Culturece
+  subcategory-1: Documentary 
+  category-2: Science
+  subcategory-2: Social Sciences  
   
   
   
