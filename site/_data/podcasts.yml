@@ -16,12 +16,12 @@
 - podcast:
   id: 2
   permalink: /dnauffs
-  title: Dna UFFS
+  title: DNA UFFS
   link_xml: https://uffs.cc/fronteiracast/feeds/feed_dnauffs
-  description: 'O DnaUFFS é um quadro voltado aos cursos da Universidade Federal da Fronteira Sul - Campus Chapecó.'
-  image_title: DnaUffs 
-  image_url: https://uffs.cc/fronteiracast/img/du_logos/logo_xml.png
-  podcast_link: https://uffs.cc/fronteiracast/dnauffs
+  description: 'O DNA UFFS é um braço do FronteiraCast voltado para expor tudo relacionado a Universidade Federal da Fronteira Sul.'
+  image_title: DNAUFFS
+  image_url: https://uffs.cc/fronteiracast/img/du_logos/logo.png
+  podcast_link: https://uffs.cc/dnauffs
   author:
   category-1: Education
   subcategory-1: Courses 
