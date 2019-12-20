@@ -1,4 +1,6 @@
-
+---
+layout: null
+---
 <?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
 xmlns:content="http://purl.org/rss/1.0/modules/content/"
 xmlns:wfw="http://wellformedweb.org/CommentAPI/"
@@ -9,56 +11,53 @@ xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
 xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
 xmlns:rawvoice="http://www.rawvoice.com/rawvoiceRssModule/"
 >
-
     {% assign vetor = site.data.podcasts | where: "id","2" %}
-    {% assign fc = vetor[0] %}
+    {% assign du = vetor[0] %}
     <channel>
-        <title>{{fc.title}}</title>
-        <atom:link href="{{ fc.link_xml }}" rel="self" type="application/rss+xml" /><link>https://uffs.cc/fronteiracast</link>
-        <link>{{ fc.link_xml }}</link>
-        <description>{{ fc.description }}</description>
+        <title>{{du.title}}</title>
+        <atom:link href="{{ du.link_xml }}" rel="self" title="Podcast" type="application/rss+xml" /><link>https://uffs.cc/dnauffs</link>
+        <link>{{ site.homeurl }}</link>
+        <link type="application/rss+xml" rel="alternate" title="{{ du.title }}" href="{{ site.homeurl }}"/>
+        <description>{{ du.description }}</description>
         <language>{{ site.language }}</language>
+        <category>{{ du.category }}</category>
         <image>
-            <title>{{ fc.image.title }}</title>
-            <url>{{ fc.image.url }}</url>
-            <link>{{ fc.image.link }}</link>
+            <title>{{ du.image_title }}</title>
+            <url>{{ du.image_url }}</url>
+            <link>{{ du.podcast_link }}</link>
         </image>
         <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
         <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
         <webMaster>{{ site.homeurl }}</webMaster>
-        <itunes:author>{{ fc.author }}</itunes:author>
-        <itunes:category text="{{ fc.category }}">
-        <itunes:image href="fc.image.url"/>
+        <itunes:author>{{ site.author }}</itunes:author>
+        <itunes:category text="{{ du.category-1 }}">
+            <itunes:category text="{{ du.subcategory-1 }}"/>
+        </itunes:category>
+        <itunes:category text="{{ du.category-2 }}">
+            <itunes:category text="{{ du.subcategory-2 }}"/>
+        </itunes:category>
+        <itunes:image href="{{ du.image_url }}"/>
         <itunes:explicit>{{ site.explicit }}</itunes:explicit>
         <itunes:owner>
-            <itunes:name> {{ site.owner }}</itunes:name>
+            <itunes:name>{{ site.owner }}</itunes:name>
             <itunes:email>{{ site.email }}</itunes:email>
         </itunes:owner>
-        <googleplay:author>{{ fc.author }}</googleplay:author>
-        <googleplay:image href="{{ fc.image.url }}"/>
-        <googleplay:email>{{ site.email }}</googleplay:email>
-        <googleplay:description>{{ fc.description }}</googleplay:description>
-        <googleplay:category text="{{ fc.category }}"/>
-        <googleplay:explicit>{{ site.explicit }}</googleplay:explicit>
-        
         {% for episode in site.categories.dnauffs %}
-            <item id="{{episode.id}}">
+            <item id="{{episode.number_ep}}">
                 <title>{{episode.title}}</title>
-                <description>{{episode.podcast_description}}</description>
-                <guid isPermaLink="false">{{episode.podcast_file_permalink}}</guid>
-                <enclosure url="{{episode.podcast_file_permalink}}" length="{{episode.length}}" type="audio/mpeg"/>
-                <pubDate>{{episode.podcast_pubDate}}</pubDate>
-                <itunes:duration>{{episode.podcast_duration}}</itunes:duration>
-                <itunes:subtitle>{{episode.podcast_subtitle}}</itunes:subtitle>
-                <itunes:summary>{{episode.podcast_description}}</itunes:summary>
-                <itunes:author>{{site.podcast_author}}</itunes:author>
-                <itunes:explicit>{{site.podcast_explicit}}</itunes:explicit>
-                <googleplay:author>{{site.podcast_author}}</googleplay:author>
-                <googleplay:description>{{episode.podcast_description}}</googleplay:description>
-                <googleplay:explicit>{{site.podcast_explicit}}</googleplay:explicit>
-                <titleApp>{{episode.title}}</titleApp>
-                <topTitleApp>{{site.podcast_subtitle}}</topTitleApp>
-                <link>{{}}</link>
+                <description>{{ site.init }}{{episode.description}}{{ site.end }}</description>
+                <itunes:keywords>{{episode.keywords}}</itunes:keywords>
+                <guid isPermaLink="true">{{episode.mp3_permalink}}</guid>
+                <enclosure url="{{episode.mp3_permalink}}" length="{{episode.mp3_length}}" type="audio/mpeg"/>
+                <pubDate>{{ episode.pubDate }}</pubDate>
+                <itunes:duration>{{ episode.mp3_duration }}</itunes:duration>
+                <itunes:subtitle>{{ episode.subtitle }}</itunes:subtitle>
+                <itunes:summary>{{ episode.subtitle }}</itunes:summary>
+                <itunes:author>{{ site.author }}</itunes:author>
+                <itunes:explicit>{{ site.explicit }}</itunes:explicit>
+                <titleApp>{{ episode.title }}</titleApp>
+                <topTitleApp>{{ site.subtitle }}</topTitleApp>
+                <link>{{site.homeurl}}{{du.permalink}}{{episode.permalink}}</link>
             </item>
         {% endfor %}
     </channel>
