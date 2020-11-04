@@ -25,20 +25,20 @@
   img: img/authors/isabeli.jpeg
   page: https://isabelirk.github.io
 
-- matheus_negrao:
-  name: Matheus D. Negrao
-  email: matheus.dnegrao@gmail.com
-  github: https://github.com/MaNegrao
-  instagram: "@n.egrao"
-  linkedin: https://www.linkedin.com/in/matheus-negr%C3%A3o-a95160166/
-  img: img/authors/negrao.jpg
-  page: https://MaNegrao.github.io
+#- matheus_negrao:
+#  name: Matheus D. Negrao
+#  email: matheus.dnegrao@gmail.com
+#  github: https://github.com/MaNegrao
+#  instagram: "@n.egrao"
+#  linkedin: https://www.linkedin.com/in/matheus-negr%C3%A3o-a95160166/
+#  img: img/authors/negrao.jpg
+#  page: https://MaNegrao.github.io
 
-- vinicius_reis:
-  name: Vinicius J. dos Reis
-  email: viniciusdosreis312@gmail.com
-  github: https://github.com/vini2reis
-  instagram: "@vini2reis08"
-  linkedin:
-  img: img/authors/vini.jpeg
-  page: https://vini2reis.github.io
+#- vinicius_reis:
+#  name: Vinicius J. dos Reis
+#  email: viniciusdosreis312@gmail.com
+#  github: https://github.com/vini2reis
+#  instagram: "@vini2reis08"
+#  linkedin:
+#  img: img/authors/vini.jpeg
+#  page: https://vini2reis.github.io
